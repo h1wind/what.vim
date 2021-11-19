@@ -50,8 +50,8 @@ if s:t_Co >= 256
   hi VertSplit ctermfg=241 ctermbg=NONE cterm=NONE
   hi StatusLine ctermfg=231 ctermbg=237 cterm=NONE
   hi! link StatusLineTerm StatusLine
-  hi! link StatusLineNC StatusLine
-  hi! link StatusLineTermNC StatusLine
+  hi StatusLineNC ctermfg=NONE ctermbg=237 cterm=NONE
+  hi! link StatusLineTermNC StatusLineNC
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE
   hi CursorLineNr ctermfg=NONE ctermbg=237 cterm=NONE
@@ -88,7 +88,7 @@ if s:t_Co >= 256
   hi TabLineSel ctermfg=17 ctermbg=252 cterm=NONE
   hi ToolbarButton ctermfg=231 ctermbg=27 cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Visual ctermfg=NONE ctermbg=241 cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=194 cterm=NONE
   hi VisualNOS ctermfg=105 ctermbg=252 cterm=reverse,underline
   hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE
   hi! link diffRemoved WarningMsg
