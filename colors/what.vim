@@ -69,10 +69,10 @@ if s:t_Co >= 256
   hi NonText ctermfg=59 ctermbg=NONE cterm=NONE
   hi ModeMsg ctermfg=123 ctermbg=NONE cterm=NONE
   hi MoreMsg ctermfg=22 ctermbg=NONE cterm=NONE
-  hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSel ctermfg=NONE ctermbg=237 cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Pmenu ctermfg=NONE ctermbg=237 cterm=NONE
+  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuSbar ctermfg=NONE ctermbg=237 cterm=NONE
+  hi PmenuThumb ctermfg=NONE ctermbg=157 cterm=NONE
   hi Question ctermfg=118 ctermbg=NONE cterm=NONE
   hi Search ctermfg=231 ctermbg=24 cterm=NONE
   hi! link QuickFixLine Search
