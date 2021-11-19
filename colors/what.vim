@@ -65,7 +65,7 @@ if s:t_Co >= 256
   hi FoldColumn ctermfg=NONE ctermbg=NONE cterm=bold
   hi Folded ctermfg=242 ctermbg=235 cterm=bold
   hi IncSearch ctermfg=193 ctermbg=16 cterm=reverse
-  hi MatchParen ctermfg=231 ctermbg=NONE cterm=underline,reverse
+  hi MatchParen ctermfg=228 ctermbg=NONE cterm=reverse
   hi NonText ctermfg=59 ctermbg=NONE cterm=NONE
   hi ModeMsg ctermfg=123 ctermbg=NONE cterm=NONE
   hi MoreMsg ctermfg=22 ctermbg=NONE cterm=NONE
