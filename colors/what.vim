@@ -88,7 +88,7 @@ if s:t_Co >= 256
   hi TabLineSel ctermfg=17 ctermbg=252 cterm=NONE
   hi ToolbarButton ctermfg=231 ctermbg=27 cterm=NONE
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Visual ctermfg=NONE ctermbg=194 cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
   hi VisualNOS ctermfg=105 ctermbg=252 cterm=reverse,underline
   hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE
   hi! link diffRemoved WarningMsg
