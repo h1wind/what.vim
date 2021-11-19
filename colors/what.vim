@@ -48,10 +48,10 @@ if s:t_Co >= 256
   hi! link CursorIM Cursor
   hi! link lCursor Cursor
   hi VertSplit ctermfg=241 ctermbg=NONE cterm=NONE
-  hi StatusLine ctermfg=231 ctermbg=241 cterm=NONE
+  hi StatusLine ctermfg=231 ctermbg=237 cterm=NONE
   hi! link StatusLineTerm StatusLine
-  hi StatusLineNC ctermfg=231 ctermbg=241 cterm=bold
-  hi StatusLineTermNC ctermfg=231 ctermbg=241 cterm=NONE
+  hi! link StatusLineNC StatusLine
+  hi! link StatusLineTermNC StatusLine
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE
   hi CursorLineNr ctermfg=NONE ctermbg=237 cterm=NONE
