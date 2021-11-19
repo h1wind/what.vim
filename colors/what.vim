@@ -21,6 +21,7 @@ if s:t_Co >= 256
   hi! link Character String
   hi! link diffAdded String
   hi Typedef ctermfg=30 ctermbg=NONE cterm=NONE
+  hi! link Identifier Typedef
   hi Type ctermfg=32 ctermbg=NONE cterm=NONE
   hi! link StorageClass Type
   hi! link Structure Type
@@ -65,7 +66,7 @@ if s:t_Co >= 256
   hi FoldColumn ctermfg=NONE ctermbg=NONE cterm=bold
   hi Folded ctermfg=242 ctermbg=235 cterm=bold
   hi IncSearch ctermfg=193 ctermbg=16 cterm=reverse
-  hi MatchParen ctermfg=228 ctermbg=NONE cterm=reverse
+  hi MatchParen ctermfg=193 ctermbg=NONE cterm=reverse
   hi NonText ctermfg=59 ctermbg=NONE cterm=NONE
   hi ModeMsg ctermfg=123 ctermbg=NONE cterm=NONE
   hi MoreMsg ctermfg=22 ctermbg=NONE cterm=NONE
@@ -110,9 +111,26 @@ if s:t_Co >= 256
   hi! link Tag Special
   hi Directory ctermfg=77 ctermbg=NONE cterm=NONE
   hi Title ctermfg=231 ctermbg=NONE cterm=NONE
-  hi Identifier ctermfg=81 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=17 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+  " c,cpp
+  hi LspCxxHlGroupEnumConstant ctermfg=33 ctermbg=NONE cterm=NONE
+  hi LspCxxHlGroupNamespace ctermfg=79 ctermbg=NONE cterm=NONE
+  hi! link LspCxxHlSymClass Typedef
+  hi! link LspCxxHlSymStruct Typedef
+  hi! link LspCxxHlSymEnum Typedef
+  hi! link LspCxxHlSymTypeAlias Typedef
+  hi! link LspCxxHlSymTypeParameter Typedef
+  hi! link LspCxxHlSymTypedef Typedef
+  hi! link LspCxxHlSymMacro LspCxxHlGroupEnumConstant
+  " go-vim
+  hi! link goFunctionCall Function
+  hi! link goTypeName Typedef
+  hi! link goDeclType Type
+  hi! link goOperator Normal
+  hi! link goExtraType Typedef
+  hi! link goTypeConstructor Typedef
+  hi! link goField Normal
   unlet s:t_Co
   finish
 endif
