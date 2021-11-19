@@ -71,8 +71,8 @@ if s:t_Co >= 256
   hi MoreMsg ctermfg=22 ctermbg=NONE cterm=NONE
   hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE
   hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=231 cterm=NONE
+  hi PmenuSel ctermfg=NONE ctermbg=237 cterm=NONE
+  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Question ctermfg=118 ctermbg=NONE cterm=NONE
   hi Search ctermfg=231 ctermbg=24 cterm=NONE
   hi! link QuickFixLine Search
