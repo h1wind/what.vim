@@ -49,13 +49,13 @@ if s:t_Co >= 256
   hi! link CursorIM Cursor
   hi! link lCursor Cursor
   hi VertSplit ctermfg=241 ctermbg=NONE cterm=NONE
-  hi StatusLine ctermfg=231 ctermbg=237 cterm=NONE
+  hi StatusLine ctermfg=102 ctermbg=237 cterm=NONE
   hi! link StatusLineTerm StatusLine
   hi StatusLineNC ctermfg=NONE ctermbg=237 cterm=NONE
   hi! link StatusLineTermNC StatusLineNC
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE
-  hi CursorLineNr ctermfg=NONE ctermbg=237 cterm=NONE
+  hi CursorLineNr ctermfg=251 ctermbg=237 cterm=NONE
   hi DiffAdd ctermfg=231 ctermbg=64 cterm=NONE
   hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
   hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE
@@ -84,7 +84,7 @@ if s:t_Co >= 256
   hi SpellCap ctermfg=NONE ctermbg=NONE cterm=NONE
   hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=NONE
   hi SpellRare ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi TabLine ctermfg=16 ctermbg=102 cterm=NONE
+  hi TabLine ctermfg=NONE ctermbg=237 cterm=NONE
   hi! link TabLineFill TabLine
   hi TabLineSel ctermfg=17 ctermbg=252 cterm=NONE
   hi ToolbarButton ctermfg=231 ctermbg=27 cterm=NONE
