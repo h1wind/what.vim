@@ -25,7 +25,6 @@ if s:t_Co >= 256
   hi Type ctermfg=32 ctermbg=NONE cterm=NONE
   hi! link StorageClass Type
   hi! link Structure Type
-  hi! link Operator Type
   hi PreProc ctermfg=197 ctermbg=NONE cterm=NONE
   hi! link Define PreProc
   hi! link Include PreProc
@@ -35,6 +34,7 @@ if s:t_Co >= 256
   hi! link LineNrAbove LineNr
   hi! link LineNrBelow LineNr
   hi Statement ctermfg=197 ctermbg=NONE cterm=NONE
+  hi! link Operator Statement
   hi! link Conditional Statement
   hi! link Exception Statement
   hi! link Keyword Statement
@@ -131,6 +131,7 @@ if s:t_Co >= 256
   hi! link goExtraType Typedef
   hi! link goTypeConstructor Typedef
   hi! link goField Normal
+  hi! link goBuiltins Operator
   unlet s:t_Co
   finish
 endif
